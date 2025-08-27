@@ -1,7 +1,7 @@
 # ML_Unsupervised_Bank_Transaction_Fraud_Detection
 This project detects fraudulent bank transactions using machine learning and statistical methods on a dataset of 2,500 records. It combines multiple anomaly detection techniques with a Random Forest model to deliver accurate, real-time fraud predictions through an automated pipeline.
 
-**Bank Fraud Detection and Analysis**
+## **Bank Fraud Detection and Analysis**
 
 This project aims to detect fraudulent bank transactions in a dataset of 2,500 records using a robust combination of machine learning and statistical techniques. It features an automated framework capable of making real-time predictions on new transactions by classifying them as "Fraud" or "Non-Fraud" based on learned patterns.
 
