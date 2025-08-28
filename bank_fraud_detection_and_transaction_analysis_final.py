@@ -1583,3 +1583,9 @@ result = predict_new_transaction(sample_transaction, rf_smote, le_dict)
 #print(f"Model Predicts that details for new transaction indicates it as: {result}")
 
 print(f"Model Predicts that details for new transaction indicates it as: \033[1m{result}\033[0m")
+
+import joblib
+
+# Assuming 'rf_smote' is the trained RandomForestClassifier and 'le_dict' label encoders dict
+joblib.dump(rf_smote, 'rf_smote_model.pkl')
+joblib.dump(le_dict, 'label_encoders.pkl')
